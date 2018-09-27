@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B9224DC215C8228009675DE /* simulation.log in Resources */ = {isa = PBXBuildFile; fileRef = 8B9224DB215C8228009675DE /* simulation.log */; };
+		8BA9D109215B1DD9004BB216 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9D108215B1DD9004BB216 /* AppDelegate.m */; };
+		8BA9D10C215B1DD9004BB216 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9D10B215B1DD9004BB216 /* ViewController.m */; };
+		8BA9D10F215B1DD9004BB216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9D10D215B1DD9004BB216 /* Main.storyboard */; };
+		8BA9D111215B1DE5004BB216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9D110215B1DE5004BB216 /* Assets.xcassets */; };
+		8BA9D114215B1DE5004BB216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9D112215B1DE5004BB216 /* LaunchScreen.storyboard */; };
+		8BA9D117215B1DE5004BB216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9D116215B1DE5004BB216 /* main.m */; };
+		8BA9D11E215B1E6A004BB216 /* KMY.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8BA9D11D215B1E6A004BB216 /* KMY.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B9224DB215C8228009675DE /* simulation.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simulation.log; sourceTree = "<group>"; };
+		8BA9D104215B1DD8004BB216 /* TrueGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA9D107215B1DD9004BB216 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BA9D108215B1DD9004BB216 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BA9D10A215B1DD9004BB216 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BA9D10B215B1DD9004BB216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BA9D10E215B1DD9004BB216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BA9D110215B1DE5004BB216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BA9D113215B1DE5004BB216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BA9D115215B1DE5004BB216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA9D116215B1DE5004BB216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BA9D11D215B1E6A004BB216 /* KMY.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KMY.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BA9D101215B1DD8004BB216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BA9D0FB215B1DD8004BB216 = {
+			isa = PBXGroup;
+			children = (
+				8BA9D106215B1DD9004BB216 /* TrueGPS */,
+				8BA9D105215B1DD8004BB216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA9D105215B1DD8004BB216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BA9D104215B1DD8004BB216 /* TrueGPS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BA9D106215B1DD9004BB216 /* TrueGPS */ = {
+			isa = PBXGroup;
+			children = (
+				8B9224DB215C8228009675DE /* simulation.log */,
+				8BA9D11D215B1E6A004BB216 /* KMY.gpx */,
+				8BA9D107215B1DD9004BB216 /* AppDelegate.h */,
+				8BA9D108215B1DD9004BB216 /* AppDelegate.m */,
+				8BA9D10A215B1DD9004BB216 /* ViewController.h */,
+				8BA9D10B215B1DD9004BB216 /* ViewController.m */,
+				8BA9D10D215B1DD9004BB216 /* Main.storyboard */,
+				8BA9D110215B1DE5004BB216 /* Assets.xcassets */,
+				8BA9D112215B1DE5004BB216 /* LaunchScreen.storyboard */,
+				8BA9D115215B1DE5004BB216 /* Info.plist */,
+				8BA9D116215B1DE5004BB216 /* main.m */,
+			);
+			path = TrueGPS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BA9D103215B1DD8004BB216 /* TrueGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA9D11A215B1DE5004BB216 /* Build configuration list for PBXNativeTarget "TrueGPS" */;
+			buildPhases = (
+				8BA9D100215B1DD8004BB216 /* Sources */,
+				8BA9D101215B1DD8004BB216 /* Frameworks */,
+				8BA9D102215B1DD8004BB216 /* Resources */,
+				8B9224DA215C7A48009675DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueGPS;
+			productName = TrueGPS;
+			productReference = 8BA9D104215B1DD8004BB216 /* TrueGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BA9D0FC215B1DD8004BB216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ly;
+				TargetAttributes = {
+					8BA9D103215B1DD8004BB216 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8BA9D0FF215B1DD8004BB216 /* Build configuration list for PBXProject "TrueGPS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BA9D0FB215B1DD8004BB216;
+			productRefGroup = 8BA9D105215B1DD8004BB216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BA9D103215B1DD8004BB216 /* TrueGPS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BA9D102215B1DD8004BB216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA9D114215B1DE5004BB216 /* LaunchScreen.storyboard in Resources */,
+				8B9224DC215C8228009675DE /* simulation.log in Resources */,
+				8BA9D11E215B1E6A004BB216 /* KMY.gpx in Resources */,
+				8BA9D111215B1DE5004BB216 /* Assets.xcassets in Resources */,
+				8BA9D10F215B1DD9004BB216 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B9224DA215C7A48009675DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/local/bin/python;
+			shellScript = "import os\nimport time\nimport random\nlongitude=120.729796\nlatitude=31.256317\ndef getRandom():\n    return (random.random() - 0.5) * 2\nlongitude = longitude + getRandom() * 0.0005\nlatitude = latitude + getRandom() * 0.0005\ntem = '''<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<gpx version=\"1.1\"\ncreator=\"GMapToGPX 6.4j - http://www.elsewhere.org/GMapToGPX/\"\nxmlns=\"http://www.topografix.com/GPX/1/1\"\nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\nxsi:schemaLocation=\"http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd\">\n<wpt lat=\"%f\" lon=\"%f\">\n<name>suzhou</name>\n<cmt>tengfeichuangxinyuan</cmt>\n<desc>tengfeichuangxinyuan</desc>\n</wpt>\n</gpx>\n'''\nbase_dir = os.getcwd()\nlogpath = os.path.join(base_dir,\"TrueGPS/simulation.log\")\nwith open(logpath,\"a\") as f:\n    f.writelines(\"%s %f,%f\\n\" %(time.ctime(),longitude,latitude))\nkmypath = os.path.join(base_dir,\"TrueGPS/KMY.gpx\")\nwith open(kmypath,\"w\") as f:\n    f.writelines(tem %(latitude,longitude))\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BA9D100215B1DD8004BB216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA9D10C215B1DD9004BB216 /* ViewController.m in Sources */,
+				8BA9D117215B1DE5004BB216 /* main.m in Sources */,
+				8BA9D109215B1DD9004BB216 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BA9D10D215B1DD9004BB216 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BA9D10E215B1DD9004BB216 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BA9D112215B1DE5004BB216 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BA9D113215B1DE5004BB216 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BA9D118215B1DE5004BB216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BA9D119215B1DE5004BB216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BA9D11B215B1DE5004BB216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT78RJBJQ6;
+				INFOPLIST_FILE = TrueGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.digitalplaybook.gps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BA9D11C215B1DE5004BB216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT78RJBJQ6;
+				INFOPLIST_FILE = TrueGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.digitalplaybook.gps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BA9D0FF215B1DD8004BB216 /* Build configuration list for PBXProject "TrueGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA9D118215B1DE5004BB216 /* Debug */,
+				8BA9D119215B1DE5004BB216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA9D11A215B1DE5004BB216 /* Build configuration list for PBXNativeTarget "TrueGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA9D11B215B1DE5004BB216 /* Debug */,
+				8BA9D11C215B1DE5004BB216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BA9D0FC215B1DD8004BB216 /* Project object */;
+}
