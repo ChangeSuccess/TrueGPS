@@ -160,7 +160,7 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /usr/local/bin/python;
+			shellPath = /usr/bin/python;
 			shellScript = "import os\nimport time\nimport random\nlongitude=120.729796\nlatitude=31.256317\ndef getRandom():\n    return (random.random() - 0.5) * 2\nlongitude = longitude + getRandom() * 0.0005\nlatitude = latitude + getRandom() * 0.0005\ntem = '''<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<gpx version=\"1.1\"\ncreator=\"GMapToGPX 6.4j - http://www.elsewhere.org/GMapToGPX/\"\nxmlns=\"http://www.topografix.com/GPX/1/1\"\nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\nxsi:schemaLocation=\"http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd\">\n<wpt lat=\"%f\" lon=\"%f\">\n<name>suzhou</name>\n<cmt>tengfeichuangxinyuan</cmt>\n<desc>tengfeichuangxinyuan</desc>\n</wpt>\n</gpx>\n'''\nbase_dir = os.getcwd()\nlogpath = os.path.join(base_dir,\"TrueGPS/simulation.log\")\nwith open(logpath,\"a\") as f:\n    f.writelines(\"%s %f,%f\\n\" %(time.ctime(),longitude,latitude))\nkmypath = os.path.join(base_dir,\"TrueGPS/KMY.gpx\")\nwith open(kmypath,\"w\") as f:\n    f.writelines(tem %(latitude,longitude))\n";
 		};
 /* End PBXShellScriptBuildPhase section */
